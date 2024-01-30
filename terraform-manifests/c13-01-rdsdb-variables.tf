@@ -22,5 +22,10 @@ variable "db_password" {
   type        = string
   sensitive   = true
 }
+variable "db_password" {
+  type        = string
+  description = "The password for the database"
+  default     = "dbpassword11"
+}
 
 
